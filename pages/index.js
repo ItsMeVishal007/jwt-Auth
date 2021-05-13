@@ -43,7 +43,7 @@ export default function Home() {
     })
   }
   return (
-    <div className={styles.container}>
+    <div>
       <form onSubmit={handleSubmit}>
         <input placeholder="Username" name="username" onChange={handleChange} />
         <input placeholder="password" name="password" onChange={handleChange} />
